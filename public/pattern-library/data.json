@@ -30,8 +30,12 @@
         }
     },
     "assets": {
-        "css": ["../../startbootstrap-agency-4-dev/css/agency.css"],
-        "js": ["../../startbootstrap-agency-4-dev/css/agency.js"]
+        "css": [
+            "../../startbootstrap-agency-4-dev/css/agency.css"
+        ],
+        "js": [
+            "../../startbootstrap-agency-4-dev/css/agency.js"
+        ]
     },
     "font_libraries": {
         "typekit_code": null,
@@ -49,6 +53,19 @@
             }
         ]
     },
-    "groups": [],
+    "groups": [
+        {
+            "name": "buttons",
+            "title": "Buttons",
+            "components": [
+                {
+                    "group": "buttons",
+                    "name": "default",
+                    "title": "Primary Button",
+                    "width": "half"
+                }
+            ]
+        }
+    ],
     "version": "1.9.3"
 }
