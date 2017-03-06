@@ -30,8 +30,8 @@
         }
     },
     "assets": {
-        "css": [],
-        "js": []
+        "css": ["../../startbootstrap-agency-4-dev/css/agency.css"],
+        "js": ["../../startbootstrap-agency-4-dev/css/agency.js"]
     },
     "font_libraries": {
         "typekit_code": null,
