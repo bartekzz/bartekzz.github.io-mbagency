@@ -121,8 +121,13 @@ h1, h2, h3, h4, h5, h6 {
   #mainNav .container {
     padding: 0; }
     #mainNav .container .navbar-brand {
-      color: #fed136;
-      font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive; }
+      color: #FD9500;
+	  font-family: Abel, cursive;
+	  margin-left: 23px;
+	  text-indent: -23px;
+	  line-height: 80%;} 
+	  #mainNav .container .navbar-brand:first-line {
+      color: #1B95FC;} 
       #mainNav .container .navbar-brand:hover, #mainNav .container .navbar-brand:focus, #mainNav .container .navbar-brand:active, #mainNav .container .navbar-brand.active {
         color: #fec503; }
     #mainNav .container .navbar-nav .nav-item .nav-link {
