@@ -192,7 +192,7 @@ header {
 
 @media (min-width: 768px) {
   header .intro-text {
-    padding-top: 300px;
+    padding-top: 150px;
     padding-bottom: 200px; }
     header .intro-text .intro-lead-in {
       font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -441,7 +441,7 @@ section {
 aside.clients img {
   margin: 20px auto; }
   
-section#services, section#about, section#contact, header{
+header, section#contact {
   background-color: #FFFFFF;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -452,24 +452,26 @@ section#services, section#about, section#contact, header{
   background-size: cover;
 }
   
-header, section#services {
-  background-image: url("../img/stockholm-services.jpg");
+header {
+  background-image: url("../img/hero-header.jpg");
 }
 /*
 section#portfolio {
   background-image: url("../img/stockholm-portfolio.jpg");
 }
 */
+/*
 section#about {
-  background-image: url("../img/stockholm-about.jpg");
+  background-image: url("../img/stockholm-christmas.jpg");
 }
+*/
 /*
 section#team {
   background-image: url("../img/stockholm-team.jpg");
 }
 */
 section#contact {
-  background-image: url("../img/stockholm-footer.jpg");  }
+  background-image: url("../img/hero-footer.gif");  }
   section#contact .section-heading {
     color: white; }
   section#contact .form-group {

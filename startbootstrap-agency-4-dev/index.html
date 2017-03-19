@@ -37,6 +37,26 @@
     }
     </style>
 
+    <script
+            src="https://code.jquery.com/jquery-2.2.4.min.js"
+            integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+            crossorigin="anonymous"></script>
+
+    <!-- Added Velocity -->
+    <script src="js/Velocity/velocity.min.js"></script>
+    <!-- Added ScrollMagic -->
+    <script src="js/ScrollMagic/ScrollMagic.js"></script>
+    <!-- Added TweenMax -->
+    <script src="js/greensock/TweenMax.min.js"></script>
+    <!-- Added GSAP scrollMagic plugin -->
+    <script src="js/ScrollMagic/plugins/animation.gsap.js"></script>
+    <!-- Added Velocity plugin -->
+    <script src="js/ScrollMagic/plugins/animation.velocity.js"></script>
+    <!-- Added custom animation of click me button -->
+    <script src="js/responsive_duration.js"></script>
+    <!-- Added custom velocity disappear animation of click me button -->
+    <script src="js/velocity_animation.js"></script>
+
 </head>
 
 <body id="page-top">
@@ -74,10 +94,12 @@
     <header>
         <div class="container">
             <div class="intro-text">
+                <div class="spacer s0" id="responsive_duration_trigger"></div>
                 <div class="intro-lead-in">En digitalbyrå med fokus på</div>
                 <div class="intro-heading">Webb, appar och UX/Design </div>
-                <a href="#services" class="page-scroll btn btn-xl">LÄS MER HÄR</a>
+                <a id="readmore_button" href="#services" class="page-scroll btn btn-xl">LÄS MER HÄR</a>
             </div>
+            <div class="spacer s0" id="velocity_animation_trigger"></div>
         </div>
     </header>
 
