@@ -169,8 +169,8 @@ h1, h2, h3, h4, h5, h6 {
 header {
   background-image: url("../img/stockholm-bg.jpg");
   background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
+  background-attachment: fixed;
+  background-position: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -444,7 +444,9 @@ section#contact {
   background-color: #FFFFFF;
   background-image: url("../img/stockholm-footer.jpg");
   background-position: center;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;  }
   section#contact .section-heading {
     color: white; }
   section#contact .form-group {
