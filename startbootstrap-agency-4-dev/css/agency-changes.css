@@ -1,0 +1,134 @@
+// Links
+// byte av färger
+a {
+    //color: #fed136;
+    color: #fd9500; }
+
+// Button
+// byte av färger
+.btn-primary {
+    color: white;
+    //background-color: #fed136;
+    //border-color: #fed136;
+    background-color: #fd9500;
+    border-color: #fd9500;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+//Navbar
+//byte av färger
+#mainNav .navbar-toggler {
+    border: 0;
+    //color: white;
+    color: #fd9500;
+    //background-color: #fd9500;
+    //font-size: 12px;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    //padding: 13px;
+    padding: 25px;
+    right: 0; }
+
+
+//Fonts
+// Ändring av fonter
+
+//font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+
+//Timeline
+
+//mindre tjocklek på rubrik
+.timeline h4 {
+  font-weight: 500;
+}
+
+// Mindre min-height i tablet-läge
+@media (min-width: 768px) {
+    .timeline:before {
+        left: 50%; }
+    .timeline > li {
+        //margin-bottom: 100px; //gets 50px as default
+        min-height: 100px; }
+    .timeline > li .timeline-panel {
+        width: 41%;
+        float: left;
+        padding: 0 20px 20px 30px;
+        text-align: right; }
+    .timeline > li .timeline-image {
+        width: 100px;
+        height: 100px;
+        left: 50%;
+        margin-left: -50px; }
+    .timeline > li .timeline-image h4 {
+        font-size: 13px;
+        margin-top: 16px;
+        line-height: 18px; }
+    .timeline > li.timeline-inverted > .timeline-panel {
+        float: right;
+        text-align: left;
+        padding: 0 30px 20px 20px; } }
+
+
+// Kundcase
+// Utjämning av rutor
+@media (min-width: 768px) {
+    #portfolio .portfolio-item .portfolio-caption {
+        max-width: 400px;
+        margin: 0 auto;
+        background-color: white;
+        text-align: center;
+        padding: 25px;
+        ** min-height: 155px;
+    }
+}
+
+// Client logos
+// minska marginal för raden med loggorna
+
+   aside.clients img {
+       //margin: 50px auto;
+       margin: 20px auto; }
+// MainNav
+// La till marginal 10px för länlistan i mobilt läge
+
+#mainNav {
+    background-color: #222222; }
+#mainNav .navbar-toggler {
+    border: 0;
+    color: #fd9500;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    padding: 25px;
+    right: 0; }
+#mainNav .container {
+    padding: 0; }
+#mainNav .container .navbar-brand {
+    color: #FD9500;
+    font-family: Abel, cursive;
+    margin-left: 55px;
+    text-indent: -55px;
+    line-height: 80%;
+    font-size: 3em;}
+#mainNav .container .navbar-brand:first-line {
+    color: #1B95FC;}
+#mainNav .container .navbar-brand:hover, #mainNav .container .navbar-brand:focus, #mainNav .container .navbar-brand:active, #mainNav .container .navbar-brand.active {
+    color: #fec503; }
+** #mainNav #navbarResponsive { margin-top: 10px; }
+#mainNav .container .navbar-nav .nav-item .nav-link {
+    font-size: 90%;
+    padding: 0.75em 0;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: white; }
+#mainNav .container .navbar-nav .nav-item .nav-link:hover, #mainNav .container .navbar-nav .nav-item .nav-link.active {
+    color: #fd9500; }
