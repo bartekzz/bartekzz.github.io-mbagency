@@ -436,7 +436,7 @@ section {
 aside.clients img {
   margin: 50px auto; }
   
-section#services, section#about, section#contact, header {
+section#services, section#about, section#contact, header{
   background-color: #FFFFFF;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -452,12 +452,7 @@ header, section#services {
 }
 /*
 section#portfolio {
-  background-color: #FFFFFF;
   background-image: url("../img/stockholm-portfolio.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
 }
 */
 section#about {
@@ -465,12 +460,7 @@ section#about {
 }
 /*
 section#team {
-  background-color: #FFFFFF;
   background-image: url("../img/stockholm-team.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
 }
 */
 section#contact {
