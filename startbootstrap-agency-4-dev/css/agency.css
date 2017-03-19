@@ -171,14 +171,6 @@ header {
 		text-indent: -40px;} }
 
 header {
-  background-image: url("../img/stockholm-bg.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
   text-align: center;
   color: white; }
   header .intro-text {
@@ -443,14 +435,46 @@ section {
 
 aside.clients img {
   margin: 50px auto; }
-
-section#contact {
+  
+section#services, section#about, section#contact, header {
   background-color: #FFFFFF;
-  background-image: url("../img/stockholm-footer.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+  
+header, section#services {
+  background-image: url("../img/stockholm-services.jpg");
+}
+/*
+section#portfolio {
+  background-color: #FFFFFF;
+  background-image: url("../img/stockholm-portfolio.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: cover;  }
+  background-size: cover;
+}
+*/
+section#about {
+  background-image: url("../img/stockholm-about.jpg");
+}
+/*
+section#team {
+  background-color: #FFFFFF;
+  background-image: url("../img/stockholm-team.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+*/
+section#contact {
+  background-image: url("../img/stockholm-footer.jpg");  }
   section#contact .section-heading {
     color: white; }
   section#contact .form-group {
