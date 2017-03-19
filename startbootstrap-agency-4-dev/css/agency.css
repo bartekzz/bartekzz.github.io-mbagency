@@ -438,6 +438,10 @@ section {
   .team-member p {
     margin-top: 0; }
 
+.team-member_animation {
+  transition: height 1s, width 1s;
+}
+
 aside.clients img {
   margin: 20px auto; }
   
