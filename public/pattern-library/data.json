@@ -8,10 +8,12 @@
     "client_url": null,
     "creators": [
         {
-            "name": "Max Nelson"
+            "name": "Max Nelson",
+			"url": null
         },
 		{
-			"Name": "Bartek Szkurlat"
+			"Name": "Bartek Szkurlat",
+			"url": null
 		}
     ],
     "theme": {
