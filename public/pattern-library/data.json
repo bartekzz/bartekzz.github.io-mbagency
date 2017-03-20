@@ -9,15 +9,13 @@
     "creators": [
         {
             "name": "Max Nelson",
-            "url": null,
 			"Name": "Bartek Szkurlat",
-			"url": null
         }
     ],
     "theme": {
         "border_color": "#E0E6ED",
         "highlight_color": "#F9FAFC",
-        "brand_color": "#00585C",
+        "brand_color": "#fed136",
         "background_color": "#FFFFFF",
         "code_highlight_theme": "github",
         "override_code_highlight_bg": "#F9FAFC",
