@@ -37,6 +37,28 @@
     }
     </style>
 
+    <script
+            src="https://code.jquery.com/jquery-2.2.4.min.js"
+            integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+            crossorigin="anonymous"></script>
+
+    <!-- Added Velocity -->
+    <script src="js/Velocity/velocity.min.js"></script>
+    <!-- Added ScrollMagic -->
+    <script src="js/ScrollMagic/ScrollMagic.js"></script>
+    <!-- Added TweenMax -->
+    <script src="js/greensock/TweenMax.min.js"></script>
+    <!-- Added GSAP scrollMagic plugin -->
+    <script src="js/ScrollMagic/plugins/animation.gsap.js"></script>
+    <!-- Added Velocity plugin -->
+    <script src="js/ScrollMagic/plugins/animation.velocity.js"></script>
+    <!-- Added custom animation of click me button -->
+    <script src="js/sc_animations/responsive_duration.js"></script>
+    <!-- Added custom velocity disappear animation of click me button -->
+    <script src="js/sc_animations/velocity_animation.js"></script>
+    <!-- Added custom css animation of team member images -->
+    <script src="js/sc_animations/css_animation.js"></script>
+
 </head>
 
 <body id="page-top">
@@ -47,7 +69,8 @@
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                  <i class="fa fa-bars"></i>
             </button>
-            <a class="navbar-brand page-scroll" href="#page-top">Mbit<br>Agency</a>
+            <img id="logo_inverted" src="logo/mbit-3d-inverted.png" class="navbar-brand page-scroll" href="#page-top">
+            <img id="logo" src="logo/mbit-3d.png" class="navbar-brand page-scroll" href="#page-top">
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
@@ -74,10 +97,12 @@
     <header>
         <div class="container">
             <div class="intro-text">
+                <div class="spacer s0" id="responsive_duration_trigger"></div>
                 <div class="intro-lead-in">En digitalbyrå med fokus på</div>
                 <div class="intro-heading">Webb, appar och UX/Design </div>
-                <a href="#services" class="page-scroll btn btn-xl">LÄS MER HÄR</a>
+                <a id="readmore_button" href="#services" class="page-scroll btn btn-xl">LÄS MER HÄR</a>
             </div>
+            <div class="spacer s0" id="velocity_animation_trigger"></div>
         </div>
     </header>
 
@@ -310,7 +335,9 @@
             <div class="row">
                 <div class="col-sm-4">
                     <div class="team-member">
-                        <img src="img/team/bartek.jpg" class="mx-auto rounded-circle" alt="">
+                        <div class="spacer s2"></div>
+                        <div id="trigger1" class="spacer s0"></div>
+                        <img src="img/team/bartek.jpg" class="mx-auto rounded-circle team-member_animation" alt="">
                         <h4>Bartek</h4>
                         <p class="text-muted">VD & Försäljning</p>
                         <ul class="list-inline social-buttons">
@@ -321,11 +348,14 @@
                             <li class="list-inline-item"><a href="#"><i class="fa fa-linkedin"></i></a>
                             </li>
                         </ul>
+                        <div class="spacer s2"></div>
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="team-member">
-                        <img src="img/team/max.jpg" class="mx-auto rounded-circle" alt="">
+                        <div class="spacer s2"></div>
+                        <div id="trigger2" class="spacer s0"></div>
+                        <img src="img/team/max.jpg" class="mx-auto rounded-circle team-member_animation" alt="">
                         <h4>Max</h4>
                         <p class="text-muted">CTO & Design</p>
                         <ul class="list-inline social-buttons">
@@ -336,11 +366,14 @@
                             <li class="list-inline-item"><a href="#"><i class="fa fa-linkedin"></i></a>
                             </li>
                         </ul>
+                        <div class="spacer s2"></div>
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="team-member">
-                        <img src="img/team/xin.jpg" class="mx-auto rounded-circle" alt="">
+                        <div class="spacer s2"></div>
+                        <div id="trigger3" class="spacer s0"></div>
+                        <img src="img/team/xin.jpg" class="mx-auto rounded-circle team-member_animation" alt="">
                         <h4>Xin</h4>
                         <p class="text-muted">Utvecklare</p>
                         <ul class="list-inline social-buttons">
@@ -351,6 +384,7 @@
                             <li class="list-inline-item"><a href="#"><i class="fa fa-linkedin"></i></a>
                             </li>
                         </ul>
+                        <div class="spacer s2"></div>
                     </div>
                 </div>
             </div>
@@ -585,9 +619,9 @@
                                 <h2>Jägholm</h2>
                                 <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
                                 <img class="img-fluid d-block mx-auto" src="img/portfolio/04-full.jpg" alt="">
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                <p>Jägholm, en mäklare från norrort ville få sin sajt förnyad. Vi började med att uppdatera plattformen och integrera ett kommunikationsgränsnitt för att stödja informationshantering från ett av de mest gängse mäklarsystemen. Detta ledde för tids- och kostnadsbesparing då information endast behövdes att föras in i systemet för att bli synligt på hemsidan. Nu kan Jägholm fokusera på det de kan bäst - förmedla fastighetsobjekt.</p>
                                 <ul class="list-inline">
-                                    <li>Datum: Maj 2013</li>
+                                    <li>Datum: September 2014</li>
                                     <li>Kund: Jägholm</li>
                                     <li>Kategori: Webb/Drupal 7</li>
                                 </ul>
@@ -618,10 +652,10 @@
                                 <h2>Sell your brand</h2>
                                 <p class="item-intro text-muted">Rådgivning för företag som vill ta det extra steget</p>
                                 <img class="img-fluid d-block mx-auto" src="img/portfolio/05-full.jpg" alt="">
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                <p>Sell your brand är en websida framtagen för att ge rådgivning inom "best practices" vid webbutveckling. Vi ger några gratis tips vad man ska tänka på innan man börjar bygga eller förnya sin webbplats. </p>
                                 <ul class="list-inline">
                                     <li>Datum: September 2015</li>
-                                    <li>Kund: PiJa</li>
+                                    <li>Kund: Alla</li>
                                     <li>Kategori: Webb/branding/illustrering</li>
                                 </ul>
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Stäng</button>
@@ -651,7 +685,7 @@
                                 <h2>Magnetfabriken</h2>
                                 <p class="item-intro text-muted">Butik för alla sorters magneter</p>
                                 <img class="img-fluid d-block mx-auto" src="img/portfolio/06-full.jpg" alt="">
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                <p>Ett återupplivande av Magnetfabrikens webb. Med både en fräsch grafisk profil och logga samt en sprillansny plattform med en egenutvecklad modul för produkhantering blev webbsajten en succé. Nu kan man söka fram en magnet som passar just dina industriella behov. </p>
                                 <ul class="list-inline">
                                     <li>Datum: September 2016</li>
                                     <li>Kund: Magnetfabriken</li>
@@ -679,7 +713,7 @@
     <script src="js/contact_me.js"></script>
 
     <!-- Cusotm JavaScript for this theme -->
-    <script src="js/agency.min.js"></script>
+    <script src="js/agency.js"></script>
 
 </body>
 

@@ -1,38 +1,54 @@
-// Links
-// byte av färger
-a {
-    //color: #fed136;
-    color: #fd9500; }
+// Source
+https://blackrockdigital.github.io/startbootstrap-agency/
 
-// Button
-// byte av färger
-.btn-primary {
-    color: white;
-    //background-color: #fed136;
-    //border-color: #fed136;
-    background-color: #fd9500;
-    border-color: #fd9500;
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-transform: uppercase;
-    font-weight: 700;
+//Make pattern library
+http://astrum.nodividestudio.com/
+https://developer.spotify.com/design/
+
+//Logo
+// Byte av logga vid @media query (mobilt läge vs min-width = 992)
+
+    // mobilt
+    #logo {
+        display: none; }
+
+    // min-width = 992
+    #logo_inverted { display: none; }
+    #logo { display: block; }
+
+    // js byte av logga (till inverterad) vid scroll
+    $(window).scroll(function() {
+    if ($("#mainNav").offset().top > 100) {
+    $("#mainNav").addClass("navbar-shrink");
+    $("#logo").attr("src","logo/mbit-3d-inverted.png");
+    } else {
+      $("#mainNav").removeClass("navbar-shrink");
+      $("#logo").attr("src","logo/mbit-3d.png");
+      }
+    });
+
+//Header
+// ändring av padding
+
+@media (min-width: 768px) {
+    header .intro-text {
+        //padding-top: 300px;
+        padding-top: 150px;
+        padding-bottom: 200px; }
+    header .intro-text .intro-lead-in {
+        font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-style: italic;
+        font-size: 40px;
+        line-height: 40px;
+        margin-bottom: 25px; }
+    header .intro-text .intro-heading {
+        font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 75px;
+        line-height: 75px;
+        margin-bottom: 50px; }
 }
-
-//Navbar
-//byte av färger
-#mainNav .navbar-toggler {
-    border: 0;
-    //color: white;
-    color: #fd9500;
-    //background-color: #fd9500;
-    //font-size: 12px;
-    font-size: 30px;
-    text-transform: uppercase;
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-transform: uppercase;
-    //padding: 13px;
-    padding: 25px;
-    right: 0; }
-
 
 //Fonts
 // Ändring av fonter
@@ -83,7 +99,7 @@ font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
         margin: 0 auto;
         background-color: white;
         text-align: center;
-        padding: 25px;
+        padding: 25px;s
         ** min-height: 155px;
     }
 }
@@ -95,7 +111,7 @@ font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
        //margin: 50px auto;
        margin: 20px auto; }
 // MainNav
-// La till marginal 10px för länlistan i mobilt läge
+// La till (***) marginal 10px för länklistan i mobilt läge
 
 #mainNav {
     background-color: #222222; }
@@ -106,7 +122,7 @@ font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
-    padding: 25px;
+    padding: 15px;
     right: 0; }
 #mainNav .container {
     padding: 0; }
@@ -121,7 +137,7 @@ font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #1B95FC;}
 #mainNav .container .navbar-brand:hover, #mainNav .container .navbar-brand:focus, #mainNav .container .navbar-brand:active, #mainNav .container .navbar-brand.active {
     color: #fec503; }
-** #mainNav #navbarResponsive { margin-top: 10px; }
+*** #mainNav #navbarResponsive { margin-top: 10px; }
 #mainNav .container .navbar-nav .nav-item .nav-link {
     font-size: 90%;
     padding: 0.75em 0;
