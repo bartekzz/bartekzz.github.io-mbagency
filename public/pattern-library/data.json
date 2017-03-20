@@ -1,15 +1,17 @@
 {
-    "project_logo": null,
+    "project_logo": "../../startbootstrap-agency-4-dev/img/logos/Mbit_v4.png",
     "project_favicon": "favicon.png",
-    "project_name": null,
-    "project_url": null,
-    "copyright_start_year": null,
+    "project_name": "Mbit Agency",
+    "project_url": "../../startbootstrap-agency-4-dev/index.html",
+    "copyright_start_year": 2017,
     "client_name": null,
     "client_url": null,
     "creators": [
         {
-            "name": null,
-            "url": null
+            "name": "Max Nelson",
+            "url": null,
+			"Name": "Bartek Szkurlat",
+			"url": null
         }
     ],
     "theme": {
