@@ -27,8 +27,10 @@
     $(window).scroll(function() {
         if ($("#mainNav").offset().top > 100) {
             $("#mainNav").addClass("navbar-shrink");
+            $("#logo").attr("src","logo/mbit-3d-inverted.png");
         } else {
             $("#mainNav").removeClass("navbar-shrink");
+            $("#logo").attr("src","logo/mbit-3d.png");
         }
     });
 

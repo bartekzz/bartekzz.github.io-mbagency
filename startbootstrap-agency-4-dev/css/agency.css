@@ -27,6 +27,9 @@ header {
 	padding-top: 60px;
 }
 
+#logo {
+  display: none; }
+
 .btn-primary {
   color: white;
   background-color: #fed136;
@@ -120,12 +123,13 @@ header {
     text-transform: uppercase;
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
-    padding: 25px;
+    padding: 15px;
     right: 0; }
   #mainNav .container {
     padding: 0; }
     #mainNav .container .navbar-brand {
-	  max-width: 175px;
+	  //max-width: 175px;
+      max-width: 250px;
 	  padding-left: 25px;}
 	  #mainNav .container .navbar-brand:first-line {
       color: #1B95FC;}*/
@@ -404,7 +408,9 @@ section {
         margin-top: 30px;
         line-height: 26px; }
     .timeline > li.timeline-inverted > .timeline-panel {
-      padding: 0 20px 20px; } }
+      padding: 0 20px 20px; }
+  #logo_inverted { display: none; }
+  #logo { display: block; }}
 
 @media (min-width: 1200px) {
   .timeline > li {
