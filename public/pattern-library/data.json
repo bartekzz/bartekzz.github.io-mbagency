@@ -8,9 +8,11 @@
     "client_url": null,
     "creators": [
         {
-            "name": "Max Nelson",
-			"Name": "Bartek Szkurlat",
+            "name": "Max Nelson"
         }
+		{
+			"Name": "Bartek Szkurlat"
+		}
     ],
     "theme": {
         "border_color": "#E0E6ED",
