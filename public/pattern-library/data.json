@@ -69,54 +69,6 @@
                     "width": "half"
                 }
             ]
-        },
-		{
-            "name": "logo",
-            "title": "Logo",
-            "components": [
-                {
-                    "group": "logo",
-                    "name": "default",
-                    "title": "Primary Logo",
-                    "width": "half"
-                },
-				{
-                    "group": "logo",
-                    "name": "default",
-                    "title": "Dark Background Logo",
-                    "width": "half"
-                },
-				{
-                    "group": "logo",
-                    "name": "default",
-                    "title": "Alternative Logo",
-                    "width": "half"
-                }
-            ]
-        },
-		{
-            "name": "text",
-            "title": "Text",
-            "components": [
-                {
-                    "group": "text",
-                    "name": "default",
-                    "title": "Fonts Used",
-                    "width": "half"
-                },
-				{
-                    "group": "text",
-                    "name": "default",
-                    "title": "Color Used",
-                    "width": "half"
-                },
-				{
-                    "group": "text",
-                    "name": "default",
-                    "title": "Alternative font/color",
-                    "width": "half"
-                }
-            ]
         }
     ],
     "version": "1.9.3"
