@@ -110,7 +110,7 @@ font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
    aside.clients img {
        //margin: 50px auto;
        margin: 20px auto; }
-// MainNav
+// MainNav (mobile)
 // La till (***) marginal 10px för länklistan i mobilt läge
 
 #mainNav {
@@ -148,3 +148,30 @@ font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: white; }
 #mainNav .container .navbar-nav .nav-item .nav-link:hover, #mainNav .container .navbar-nav .nav-item .nav-link.active {
     color: #fd9500; }
+
+// Större än 992px, la till (***) min-width = 250px
+@media (min-width: 992px) {
+    #mainNav {
+        background-color: transparent;
+        padding: 25px 0;
+        -webkit-transition: padding 0.3s;
+        -moz-transition: padding 0.3s;
+        transition: padding 0.3s;
+        border: none; }
+    #mainNav .container .navbar-brand {
+        *** max-width: 250px;
+        padding-left: 25px;}
+    #mainNav .navbar-brand {
+        font-size: 1.75em;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        transition: all 0.3s;}
+    #mainNav .navbar-nav .nav-item .nav-link {
+        padding: 1.1em 1em !important; }
+    #mainNav.navbar-shrink {
+        background-color: #222222;
+        padding: 0; }
+    #mainNav.navbar-shrink .navbar-brand {
+        padding: 12px 0;
+        max-width: 175px;
+        padding-left: 25px;} }

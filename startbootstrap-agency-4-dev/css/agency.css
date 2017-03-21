@@ -128,11 +128,10 @@ header {
   #mainNav .container {
     padding: 0; }
     #mainNav .container .navbar-brand {
-	  //max-width: 175px;
-      max-width: 250px;
+	  max-width: 175px;
 	  padding-left: 25px;}
 	  #mainNav .container .navbar-brand:first-line {
-      color: #1B95FC;}*/
+      color: #1B95FC;}
       #mainNav .container .navbar-brand:hover, #mainNav .container .navbar-brand:focus, #mainNav .container .navbar-brand:active, #mainNav .container .navbar-brand.active {
         color: #fec503; }
       #mainNav #navbarResponsive { margin-top: 10px; }
@@ -155,6 +154,9 @@ header {
     -moz-transition: padding 0.3s;
     transition: padding 0.3s;
     border: none; }
+    #mainNav .container .navbar-brand {
+      max-width: 250px;
+      padding-left: 25px;}
     #mainNav .navbar-brand {
       font-size: 1.75em;
       -webkit-transition: all 0.3s;
