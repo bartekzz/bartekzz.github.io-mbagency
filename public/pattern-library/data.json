@@ -9,12 +9,12 @@
     "creators": [
         {
             "name": "Max Nelson",
-			"url": "../../startbootstrap-agency-4-dev/index.html"
+            "url": "../../startbootstrap-agency-4-dev/index.html"
         },
-		{
-			"name": "Bartek Szkurlat",
-			"url": "../../startbootstrap-agency-4-dev/index.html"
-		}
+        {
+            "name": "Bartek Szkurlat",
+            "url": "../../startbootstrap-agency-4-dev/index.html"
+        }
     ],
     "theme": {
         "border_color": "#E0E6ED",
@@ -59,6 +59,59 @@
     },
     "groups": [
         {
+            "name": "branding",
+            "title": "Branding",
+            "components": [
+                {
+                    "group": "branding",
+                    "name": "color-palette",
+                    "title": "Color-palette",
+                    "type": "colors",
+                    "colors": [
+						"#fed136", "#b48b01",
+						"#222222", "#1B95FC"
+					]
+                }
+            ]
+        },
+        {
+            "name": "navigation",
+            "title": "Navigation links",
+            "components": [
+                {
+                    "group": "navigation",
+                    "name": "primary",
+                    "title": "Primary navigation bar",
+                    "width": "half"
+                }
+            ]
+        },
+        {
+            "name": "logo",
+            "title": "Logo and how to use",
+            "components": [
+                {
+                    "group": "logo",
+                    "name": "primary",
+                    "title": "Primary logo",
+                    "width": "half",
+                    "options": {
+                        "disable_code_sample": true
+                    }
+                },
+                {
+                    "group": "logo",
+                    "name": "AltLogo",
+                    "title": "Alternative logo",
+                    "width": "half",
+                    "options": {
+                        "sample_dark_background": true,
+                        "disable_code_sample": true
+                    }
+                }
+            ]
+        },
+        {
             "name": "buttons",
             "title": "Buttons",
             "components": [
@@ -66,6 +119,36 @@
                     "group": "buttons",
                     "name": "default",
                     "title": "Primary Button",
+                    "width": "half"
+                }
+            ]
+        },
+        {
+            "name": "text",
+            "title": "Text formatting",
+            "components": [
+                {
+                    "group": "text",
+                    "name": "font",
+                    "title": "Font",
+                    "width": "half"
+                }
+            ]
+        },
+        {
+            "name": "image",
+            "title": "Images",
+            "components": [
+                {
+                    "group": "image",
+                    "name": "square",
+                    "title": "Square image",
+                    "width": "half"
+                },
+                {
+                    "group": "image",
+                    "name": "round",
+                    "title": "Round images",
                     "width": "half"
                 }
             ]
