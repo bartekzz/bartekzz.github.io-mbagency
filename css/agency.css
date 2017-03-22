@@ -467,6 +467,7 @@ header, section#contact {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  heigh: 100%;
 }
   
 header {
