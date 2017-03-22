@@ -68,25 +68,25 @@
                     "group": "branding"
                 },
                 {
-                    "group": "branding",
                     "name": "primary",
                     "title": "Primary logo",
                     "width": "half",
                     "options": {
                         "disable_code_sample": true
-                    }
+                    },
+                    "group": "branding"
                 },
                 {
-                    "group": "branding",
-                    "name": "PrimaryColor",
-                    "title": "Primary color-palette",
+                    "name": "pr",
+                    "title": "Primary logo color-palette",
                     "type": "colors",
                     "colors": [
                         "#0269FC",
                         "#013682",
                         "#FBCF35",
                         "#816A1B"
-                    ]
+                    ],
+                    "group": "branding"
                 },
                 {
                     "name": "alternative",
@@ -99,15 +99,15 @@
                     "group": "branding"
                 },
                 {
-                    "group": "branding",
-                    "name": "AltColor",
-                    "title": "Alternative color-palette",
+                    "name": "alt",
+                    "title": "Alternative logo color-palette",
                     "type": "colors",
                     "colors": [
                         "#0465D9",
                         "#FFBD04",
                         "#FFFEFA"
-                    ]
+                    ],
+                    "group": "branding"
                 }
             ]
         },
