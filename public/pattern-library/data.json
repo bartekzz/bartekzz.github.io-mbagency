@@ -1,5 +1,5 @@
 {
-    "project_logo": "../../startbootstrap-agency-4-dev/img/logos/Mbit_v4.png",
+    "project_logo": "https://raw.githubusercontent.com/bartekzz/mbitagency/master/startbootstrap-agency-4-dev/logo/mbit-3d.png",
     "project_favicon": "favicon.png",
     "project_name": "Mbit Agency",
     "project_url": "../../startbootstrap-agency-4-dev/index.html",
@@ -35,10 +35,12 @@
     },
     "assets": {
         "css": [
-            "../../startbootstrap-agency-4-dev/css/agency.css"
+            "../../startbootstrap-agency-4-dev/css/agency.css",
+            "../../startbootstrap-agency-4-dev/lib/bootstrap/css/bootstrap.min.css",
+			"https://fonts.googleapis.com/css?family=Montserrat:400,700"
         ],
         "js": [
-            "../../startbootstrap-agency-4-dev/css/agency.js"
+            "../../startbootstrap-agency-4-dev/js/agency.js"
         ]
     },
     "font_libraries": {
@@ -141,10 +143,13 @@
             "title": "Buttons",
             "components": [
                 {
-                    "group": "buttons",
                     "name": "default",
                     "title": "Primary Button",
-                    "width": "half"
+                    "width": "half",
+                    "options": {
+                        "sample_dark_background": true
+                    },
+                    "group": "buttons"
                 }
             ]
         },
@@ -154,9 +159,19 @@
             "components": [
                 {
                     "group": "text",
+                    "name": "HeadFont",
+                    "title": "Header font",
+                    "options": {
+                        "disable_code_sample": true
+                    }
+                },
+                {
                     "name": "font",
-                    "title": "Font",
-                    "width": "half"
+                    "title": "Bread font",
+                    "options": {
+                        "disable_code_sample": true
+                    },
+                    "group": "text"
                 }
             ]
         },
@@ -164,12 +179,6 @@
             "name": "image",
             "title": "Images",
             "components": [
-                {
-                    "group": "image",
-                    "name": "square",
-                    "title": "Square image",
-                    "width": "half"
-                },
                 {
                     "group": "image",
                     "name": "round",
