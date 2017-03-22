@@ -37,7 +37,7 @@
         "css": [
             "../../startbootstrap-agency-4-dev/css/agency.css",
             "../../startbootstrap-agency-4-dev/lib/bootstrap/css/bootstrap.min.css",
-			"https://fonts.googleapis.com/css?family=Montserrat:400,700"
+            "https://fonts.googleapis.com/css?family=Montserrat:400,700"
         ],
         "js": [
             "../../startbootstrap-agency-4-dev/js/agency.js"
@@ -48,17 +48,7 @@
         "typography_web_fonts": null,
         "google_web_fonts": null
     },
-    "content": {
-        "show_first_page_on_load": true,
-        "title": "Overview",
-        "pages": [
-            {
-                "name": "introduction",
-                "title": "Introduction",
-                "file": "./pages/intro.md"
-            }
-        ]
-    },
+    "content": null,
     "groups": [
         {
             "name": "branding",
@@ -83,10 +73,13 @@
             "title": "Navigation links",
             "components": [
                 {
-                    "group": "navigation",
                     "name": "primary",
                     "title": "Primary navigation bar",
-                    "width": "half"
+                    "width": "half",
+                    "options": {
+                        "sample_dark_background": true
+                    },
+                    "group": "navigation"
                 }
             ]
         },
@@ -161,6 +154,14 @@
                     "group": "text",
                     "name": "HeadFont",
                     "title": "Header font",
+                    "options": {
+                        "disable_code_sample": true
+                    }
+                },
+                {
+                    "group": "text",
+                    "name": "SubFont",
+                    "title": "Sub-header font",
                     "options": {
                         "disable_code_sample": true
                     }

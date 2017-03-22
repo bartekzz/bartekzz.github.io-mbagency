@@ -143,8 +143,17 @@ header {
       font-weight: 400;
       letter-spacing: 1px;
       color: white; }
-      #mainNav .container .navbar-nav .nav-item .nav-link:hover, #mainNav .container .navbar-nav .nav-item .nav-link.active {
-        color: #fed136; }
+      #mainNav .container .navbar-nav .nav-item .nav-link:hover {
+        color: #1B95FC; }
+      #mainNav .container .navbar-nav .nav-item .nav-link.active {
+        color: #fed136;
+      }
+	  .nav-link {
+		  color: white;
+	  }
+	  .nav-link:hover {
+		color: #1B95FC;
+	  }
 
 @media (min-width: 992px) {
   #mainNav {
