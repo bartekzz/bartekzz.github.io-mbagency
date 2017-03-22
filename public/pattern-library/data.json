@@ -107,16 +107,19 @@
                     "title": "Primary color-palette",
                     "type": "colors",
                     "colors": [
-						"#0269FC", "#013682",
-						"#FBCF35", "#816A1B"
-					]
+                        "#0269FC",
+                        "#013682",
+                        "#FBCF35",
+                        "#816A1B"
+                    ]
                 },
                 {
                     "name": "alternative",
                     "title": "Alternative logo",
                     "width": "half",
                     "options": {
-                        "disable_code_sample": true
+                        "disable_code_sample": true,
+                        "sample_dark_background": true
                     },
                     "group": "logo"
                 },
@@ -126,9 +129,10 @@
                     "title": "Alternative color-palette",
                     "type": "colors",
                     "colors": [
-						"#0465D9", "#0465D9",
-						"#FFFEFA"
-					]
+                        "#0465D9",
+                        "#FFBD04",
+                        "#FFFEFA"
+                    ]
                 }
             ]
         },
