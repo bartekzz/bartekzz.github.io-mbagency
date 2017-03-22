@@ -1,1 +1,1 @@
-Use this font for headers of size <h2> or smaller.
+Use this font for headers of size h2 or smaller.

@@ -1,1 +1,1 @@
-Use this font for <h1> headers.
+Use this font for h1 headers.
