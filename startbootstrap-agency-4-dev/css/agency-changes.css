@@ -1,10 +1,6 @@
 // Source
 https://blackrockdigital.github.io/startbootstrap-agency/
 
-//Make pattern library
-http://astrum.nodividestudio.com/
-https://developer.spotify.com/design/
-
 //Logo
 // Byte av logga vid @media query (mobilt läge vs min-width = 992)
 
@@ -110,6 +106,8 @@ font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
    aside.clients img {
        //margin: 50px auto;
        margin: 20px auto; }
+
+
 // MainNav (mobile)
 // La till (***) marginal 10px för länklistan i mobilt läge
 // Bytte padding för menu-icon
