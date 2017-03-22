@@ -68,9 +68,11 @@
                     "title": "Color-palette",
                     "type": "colors",
                     "colors": [
-						"#fed136", "#b48b01",
-						"#222222", "#1B95FC"
-					]
+                        "#fed136",
+                        "#b48b01",
+                        "#222222",
+                        "#1B95FC"
+                    ]
                 }
             ]
         },
@@ -101,13 +103,32 @@
                 },
                 {
                     "group": "logo",
-                    "name": "AltLogo",
+                    "name": "PrimaryColor",
+                    "title": "Primary color-palette",
+                    "type": "colors",
+                    "colors": [
+						"#0269FC", "#013682",
+						"#FBCF35", "#816A1B"
+					]
+                },
+                {
+                    "name": "alternative",
                     "title": "Alternative logo",
                     "width": "half",
                     "options": {
-                        "sample_dark_background": true,
                         "disable_code_sample": true
-                    }
+                    },
+                    "group": "logo"
+                },
+                {
+                    "group": "logo",
+                    "name": "AltColor",
+                    "title": "Alternative color-palette",
+                    "type": "colors",
+                    "colors": [
+						"#0465D9", "#0465D9",
+						"#FFFEFA"
+					]
                 }
             ]
         },
