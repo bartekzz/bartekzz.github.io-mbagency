@@ -460,6 +460,11 @@ aside.clients img {
   
 header, section#contact {
   background-color: #FFFFFF;
+  -webkit-background-size: 100%; 
+  -moz-background-size: 100%; 
+  -o-background-size: 100%; 
+  background-size: 100%; 
+  background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -467,14 +472,7 @@ header, section#contact {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  height: 100%;
-  -webkit-height: 100%;
-  -moz-height: 100%;
-  -o-height: 100%;
-  width: 100%;
-  -webkit-width: 100%;
-  -moz-width: 100%;
-  -o-width: 100%;
+  
 }
   
 header {
