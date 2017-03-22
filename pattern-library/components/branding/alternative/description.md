@@ -1,0 +1,1 @@
+Only suitable on dark backgrounds, for brighter, please use the primary logo.

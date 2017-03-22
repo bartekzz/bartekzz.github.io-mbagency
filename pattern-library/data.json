@@ -1,0 +1,188 @@
+{
+    "project_logo": "../logo/mbit-3d.png",
+    "project_favicon": "favicon.png",
+    "project_name": "Mbit Agency",
+    "project_url": "../index.html",
+    "copyright_start_year": 2017,
+    "client_name": null,
+    "client_url": null,
+    "creators": [
+        {
+            "name": "Max Nelson",
+            "url": "../index.html"
+        },
+        {
+            "name": "Bartek Szkurlat",
+            "url": "../index.html"
+        }
+    ],
+    "theme": {
+        "border_color": "#E0E6ED",
+        "highlight_color": "#F9FAFC",
+        "brand_color": "#fed136",
+        "background_color": "#FFFFFF",
+        "code_highlight_theme": "github",
+        "override_code_highlight_bg": "#F9FAFC",
+        "sample_dark_background": "#333333",
+        "show_project_name": true,
+        "show_version": true,
+        "max_width": null,
+        "titles": {
+            "library_title": "Pattern Library",
+            "pages_title": "Overview",
+            "components_title": "Components"
+        }
+    },
+    "assets": {
+        "css": [
+            "../css/agency.css",
+            "../lib/bootstrap/css/bootstrap.min.css",
+            "https://fonts.googleapis.com/css?family=Montserrat:400,700"
+        ],
+        "js": [
+            "../js/agency.js"
+        ]
+    },
+    "font_libraries": {
+        "typekit_code": null,
+        "typography_web_fonts": null,
+        "google_web_fonts": null
+    },
+    "content": null,
+    "groups": [
+        {
+            "name": "branding",
+            "title": "Branding",
+            "components": [
+                {
+                    "name": "color-palette",
+                    "title": "Color-palette",
+                    "type": "colors",
+                    "colors": [
+                        "#fed136",
+                        "#b48b01",
+                        "#222222",
+                        "#1B95FC"
+                    ],
+                    "options": {},
+                    "group": "branding"
+                },
+                {
+                    "name": "primary",
+                    "title": "Primary logo",
+                    "width": "half",
+                    "options": {
+                        "disable_code_sample": true
+                    },
+                    "group": "branding"
+                },
+                {
+                    "name": "pr",
+                    "title": "Primary logo color-palette",
+                    "type": "colors",
+                    "colors": [
+                        "#0269FC",
+                        "#013682",
+                        "#FBCF35",
+                        "#816A1B"
+                    ],
+                    "group": "branding"
+                },
+                {
+                    "name": "alternative",
+                    "title": "Alternative logo",
+                    "width": "half",
+                    "options": {
+                        "disable_code_sample": true,
+                        "sample_dark_background": true
+                    },
+                    "group": "branding"
+                },
+                {
+                    "name": "alt",
+                    "title": "Alternative logo color-palette",
+                    "type": "colors",
+                    "colors": [
+                        "#0465D9",
+                        "#FFBD04",
+                        "#FFFEFA"
+                    ],
+                    "group": "branding"
+                }
+            ]
+        },
+        {
+            "name": "navigation",
+            "title": "Navigation links",
+            "components": [
+                {
+                    "name": "primary",
+                    "title": "Primary navigation bar",
+                    "width": "half",
+                    "options": {
+                        "sample_dark_background": true
+                    },
+                    "group": "navigation"
+                }
+            ]
+        },
+        {
+            "name": "buttons",
+            "title": "Buttons",
+            "components": [
+                {
+                    "name": "default",
+                    "title": "Primary Button",
+                    "width": "half",
+                    "options": {
+                        "sample_dark_background": true
+                    },
+                    "group": "buttons"
+                }
+            ]
+        },
+        {
+            "name": "text",
+            "title": "Text formatting",
+            "components": [
+                {
+                    "group": "text",
+                    "name": "HeadFont",
+                    "title": "Header font",
+                    "options": {
+                        "disable_code_sample": true
+                    }
+                },
+                {
+                    "group": "text",
+                    "name": "SubFont",
+                    "title": "Sub-header font",
+                    "options": {
+                        "disable_code_sample": true
+                    }
+                },
+                {
+                    "name": "font",
+                    "title": "Bread font",
+                    "options": {
+                        "disable_code_sample": true
+                    },
+                    "group": "text"
+                }
+            ]
+        },
+        {
+            "name": "image",
+            "title": "Images",
+            "components": [
+                {
+                    "group": "image",
+                    "name": "round",
+                    "title": "Round images",
+                    "width": "half"
+                }
+            ]
+        }
+    ],
+    "version": "1.9.3"
+}

@@ -1,0 +1,1 @@
+Color-palette used in the primary logo, these colors must always be used.
