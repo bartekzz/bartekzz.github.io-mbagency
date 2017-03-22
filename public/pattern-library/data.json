@@ -52,10 +52,9 @@
     "groups": [
         {
             "name": "branding",
-            "title": "Branding",
+            "title": "Logo",
             "components": [
                 {
-                    "group": "branding",
                     "name": "color-palette",
                     "title": "Color-palette",
                     "type": "colors",
@@ -64,31 +63,12 @@
                         "#b48b01",
                         "#222222",
                         "#1B95FC"
-                    ]
-                }
-            ]
-        },
-        {
-            "name": "navigation",
-            "title": "Navigation links",
-            "components": [
+                    ],
+                    "options": {},
+                    "group": "branding"
+                },
                 {
-                    "name": "primary",
-                    "title": "Primary navigation bar",
-                    "width": "half",
-                    "options": {
-                        "sample_dark_background": true
-                    },
-                    "group": "navigation"
-                }
-            ]
-        },
-        {
-            "name": "logo",
-            "title": "Logo and how to use",
-            "components": [
-                {
-                    "group": "logo",
+                    "group": "branding",
                     "name": "primary",
                     "title": "Primary logo",
                     "width": "half",
@@ -97,7 +77,7 @@
                     }
                 },
                 {
-                    "group": "logo",
+                    "group": "branding",
                     "name": "PrimaryColor",
                     "title": "Primary color-palette",
                     "type": "colors",
@@ -116,10 +96,10 @@
                         "disable_code_sample": true,
                         "sample_dark_background": true
                     },
-                    "group": "logo"
+                    "group": "branding"
                 },
                 {
-                    "group": "logo",
+                    "group": "branding",
                     "name": "AltColor",
                     "title": "Alternative color-palette",
                     "type": "colors",
@@ -128,6 +108,21 @@
                         "#FFBD04",
                         "#FFFEFA"
                     ]
+                }
+            ]
+        },
+        {
+            "name": "navigation",
+            "title": "Navigation links",
+            "components": [
+                {
+                    "name": "primary",
+                    "title": "Primary navigation bar",
+                    "width": "half",
+                    "options": {
+                        "sample_dark_background": true
+                    },
+                    "group": "navigation"
                 }
             ]
         },
